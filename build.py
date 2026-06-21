@@ -710,7 +710,7 @@ def render_sidebar(tree: dict[str, dict[str, list[Note]]], current: Note | None)
     lines = ['<nav class="sidebar" aria-label="Primary navigation">']
     lines.append(
         '<div class="sidebar-head">'
-        f'<a class="sidebar-brand" href="{html.escape(home_href)}">{icon_svg("nodes", "brand-icon")}'
+        f'<a class="sidebar-brand" href="{html.escape(home_href)}">{icon_svg("cpu", "brand-icon")}'
         f'<span class="brand-text"><span class="brand-title">{html.escape(SITE_NAME)}</span><span class="brand-sub">{html.escape(t("brand_sub"))}</span></span></a>'
         f'<button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="{html.escape(t("theme_toggle"))}">'
         f'<span class="label-light">{icon_svg("sun")} {html.escape(t("light_mode"))}</span>'

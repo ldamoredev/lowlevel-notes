@@ -19,7 +19,7 @@ behavior** — so that everything later has something concrete to attach to.
 
 ## Planned notes
 
-- You are the runtime now — what the managed floor was hiding
+- [[lowlevel/machine-model/you-are-the-runtime-now|You are the runtime now]] — what the managed floor was hiding
 - The CPU: fetch–decode–execute and the clock
 - Registers and the instruction set architecture (ISA)
 - The memory hierarchy: registers → L1/L2/L3 → RAM → disk
