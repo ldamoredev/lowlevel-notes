@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Low-Level Atlas">
+  <rect width="1200" height="630" fill="#0c0d10"/>
+  <!-- oscilloscope grid -->
+  <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630" stroke="#21242b" stroke-width="1"/>
+  <!-- CPU die motif, copper on graphite -->
+  <g fill="none" stroke="#e8a06a" stroke-width="6" stroke-linecap="round">
+    <rect x="858" y="158" width="190" height="190" rx="14"/>
+    <path d="M905 128v30M965 128v30M1003 128v30M905 348v30M965 348v30M1003 348v30M828 205h30M828 253h30M828 301h30M1048 205h30M1048 253h30M1048 301h30"/>
+  </g>
+  <rect x="918" y="218" width="70" height="70" rx="8" fill="#6ee7a8" opacity="0.92"/>
+  <!-- text -->
+  <text x="92" y="110" fill="#e8a06a" font-family="JetBrains Mono, ui-monospace, monospace" font-size="24" font-weight="700">bare.metal / low-level-atlas</text>
+  <text x="88" y="360" fill="#ece6db" font-family="Inter, system-ui, sans-serif" font-size="96" font-weight="800">Low-Level Atlas</text>
+  <text x="92" y="425" fill="#6ee7a8" font-family="JetBrains Mono, ui-monospace, monospace" font-size="30" font-weight="600">from &#x201C;I can program&#x201D; to &#x201C;I understand the machine&#x201D;</text>
+  <text x="92" y="520" fill="#968d7d" font-family="Inter, system-ui, sans-serif" font-size="30">C &#183; pointers &#183; assembly &#183; the toolchain &#183; systems &#183; an OS from scratch</text>
+</svg>
