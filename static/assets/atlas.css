@@ -86,11 +86,13 @@ html { scroll-behavior: smooth; scroll-padding-top: calc(var(--topbar-h) + 18px)
 body {
   min-height: 100vh;
   color: var(--fg);
+  /* Perfboard / breadboard dot grid — distinctive bare-metal identity
+     (a matrix of holes, not the continuous line grid of the sibling atlas). */
   background:
-    linear-gradient(var(--border-2) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border-2) 1px, transparent 1px),
+    radial-gradient(circle at center, var(--border) 1px, transparent 1.6px),
     var(--bg);
-  background-size: 42px 42px;
+  background-size: 22px 22px;
+  background-position: -1px -1px;
   font-family: var(--font-sans);
   font-size: 14px;
   line-height: 1.55;
@@ -98,11 +100,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 html[data-theme="dark"] body {
+  /* Perfboard dots on graphite + a faint copper bench-light glow up top. */
   background:
-    linear-gradient(var(--border-2) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border-2) 1px, transparent 1px),
+    radial-gradient(circle at center, var(--border-strong) 1px, transparent 1.6px),
+    radial-gradient(1100px 560px at 14% -8%, rgba(232, 160, 106, .06), transparent 60%),
     var(--bg);
-  background-size: 44px 44px, 44px 44px, auto;
+  background-size: 22px 22px, 100% 100%, auto;
+  background-position: -1px -1px, 0 0, 0 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -127,7 +131,7 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
   padding: 9px 15px;
   border-radius: var(--radius);
   background: var(--accent);
-  color: #04121f;
+  color: #1b1712;
   font-weight: 800;
   transform: translateY(-160%);
   transition: transform .15s ease;
@@ -164,7 +168,7 @@ svg { width: 18px; height: 18px; flex-shrink: 0; }
   scrollbar-width: thin;
   z-index: 90;
 }
-html[data-theme="dark"] .sidebar { background: rgba(14, 21, 38, .96); }
+html[data-theme="dark"] .sidebar { background: rgba(22, 24, 29, .96); }
 .sidebar summary { display: flex; list-style: none; cursor: pointer; }
 .sidebar summary::-webkit-details-marker { display: none; }
 .sidebar-head { display: flex; flex-direction: column; gap: 12px; }
@@ -231,7 +235,7 @@ html:not([data-theme="dark"]) .theme-toggle .label-dark { display: none; }
   transition: transform .16s;
 }
 html[data-theme="dark"] .toggle-pill { background: var(--accent); }
-html[data-theme="dark"] .toggle-pill::after { transform: translateX(13px); background: #07111f; }
+html[data-theme="dark"] .toggle-pill::after { transform: translateX(13px); background: #0c0d10; }
 
 .sidebar-body { display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .sidebar-home,
@@ -377,7 +381,7 @@ details[open] > summary .chev { transform: rotate(180deg); }
   backdrop-filter: blur(12px) saturate(1.1);
   justify-content: space-between;
 }
-html[data-theme="dark"] .topbar { background: rgba(17, 24, 39, .92); }
+html[data-theme="dark"] .topbar { background: rgba(22, 24, 29, .92); }
 .menu-toggle { display: none !important; }
 .icon-btn {
   width: 36px;
@@ -590,8 +594,8 @@ html[data-theme="dark"] .topbar { background: rgba(17, 24, 39, .92); }
   font-weight: 800;
 }
 .btn:hover { text-decoration: none; }
-.btn-primary { color: #04121f; background: var(--accent); border-color: var(--accent); }
-.btn-primary:hover { background: var(--sky); border-color: var(--sky); color: #04121f; }
+.btn-primary { color: #1b1712; background: var(--accent); border-color: var(--accent); }
+.btn-primary:hover { background: var(--sky); border-color: var(--sky); color: #1b1712; }
 .btn-ghost { color: var(--fg-soft); background: var(--panel); }
 .btn-ghost:hover { background: var(--panel-3); color: var(--fg); }
 .hero-stats {
