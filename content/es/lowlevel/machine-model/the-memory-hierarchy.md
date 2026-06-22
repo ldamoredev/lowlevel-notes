@@ -58,7 +58,7 @@ Las caches rinden solo porque los programas reales exhiben **localidad de refere
   reutilización gana.
 - **Localidad espacial** — si tocaste una dirección, es probable que toques pronto a sus
   vecinas (el próximo elemento del array). Por eso las caches no mueven bytes sueltos;
-  mueven una **cache line** entera (64 bytes en x86-64 y Apple Silicon) de una.
+  mueven una **cache line** entera (64 bytes en x86-64; 128 en Apple Silicon) de una.
 
 Por esto *cómo* recorrés la memoria domina la performance. Recorrer un array en orden
 usa cada byte de cada línea traída antes de seguir — localidad espacial casi perfecta.
@@ -119,7 +119,7 @@ int main(void) {
 Mientras el array entra en L1/L2 vas a ver un ~2 ns más o menos plano; a medida que se
 derrama a L3 el tiempo trepa de forma sostenida, y una vez que el working set ya no entra
 en cache y cada chase espera a la RAM sube hacia ~100+ ns — una corrida real en una
-laptop Apple Silicon dio `2.3 → 4.6 → 12.6 → 33.7 → 99.5 → 164.5 ns` de 32 KB a 64 MB.
+laptop Intel Core i7 dio `2.3 → 4.6 → 12.6 → 33.7 → 99.5 → 164.5 ns` de 32 KB a 64 MB.
 Acabás de *medir* la jerarquía — sin profiler. Dos detalles lo hacen funcionar, y los dos
 son fáciles de errar: el ciclo **aleatorio** de Sattolo derrota al prefetcher (un anillo
 secuencial `(i+1)%n` se queda en ~2 ns aun a 64 MB porque la CPU lo predice), y la cadena

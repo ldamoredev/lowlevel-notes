@@ -55,7 +55,7 @@ Caches pay off only because real programs exhibit **locality of reference**:
   (a loop counter, a hot struct field). Keep it cached and reuse wins.
 - **Spatial locality** — if you touched an address, you'll likely touch its neighbors
   soon (the next array element). So caches don't move single bytes; they move a whole
-  **cache line** (64 bytes on x86-64 and Apple Silicon) at once.
+  **cache line** (64 bytes on x86-64; 128 on Apple Silicon) at once.
 
 This is why *how* you walk memory dominates performance. Striding through an array in
 order uses every byte of each fetched line before moving on — near-perfect spatial
@@ -111,7 +111,7 @@ int main(void) {
 
 While the array fits in L1/L2 you'll see a roughly flat ~2 ns; as it spills into L3 the
 time climbs steadily, and once the working set no longer fits in cache and every chase
-waits on RAM it rises toward ~100+ ns — a real run on an Apple-Silicon laptop went
+waits on RAM it rises toward ~100+ ns — a real run on an Intel Core i7 laptop went
 `2.3 → 4.6 → 12.6 → 33.7 → 99.5 → 164.5 ns` from 32 KB up to 64 MB. You just *measured*
 the hierarchy — no profiler required. Two details make it work, and both are easy to get
 wrong: the **random** Sattolo cycle defeats the prefetcher (a sequential `(i+1)%n` ring
