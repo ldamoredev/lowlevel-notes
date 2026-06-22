@@ -23,7 +23,7 @@ lo que agarrarse.
 
 - [[lowlevel/machine-model/you-are-the-runtime-now|Ahora el runtime sos vos]] — lo que escondía el piso administrado
 - [[lowlevel/machine-model/the-cpu-fetch-decode-execute|La CPU: fetch–decode–execute y el clock]]
-- Registros y la instruction set architecture (ISA)
+- [[lowlevel/machine-model/registers-and-the-isa|Registros y la instruction set architecture (ISA)]]
 - La jerarquía de memoria: registros → L1/L2/L3 → RAM → disco
 - Cache lines, localidad y por qué un miss cuesta ~100× un hit
 - Stack vs heap (memoria dinámica): las dos regiones de memoria donde vas a vivir
