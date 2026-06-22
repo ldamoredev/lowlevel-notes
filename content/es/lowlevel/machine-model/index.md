@@ -22,7 +22,7 @@ lo que agarrarse.
 ## Notas planificadas
 
 - [[lowlevel/machine-model/you-are-the-runtime-now|Ahora el runtime sos vos]] — lo que escondía el piso administrado
-- La CPU: fetch–decode–execute y el clock
+- [[lowlevel/machine-model/the-cpu-fetch-decode-execute|La CPU: fetch–decode–execute y el clock]]
 - Registros y la instruction set architecture (ISA)
 - La jerarquía de memoria: registros → L1/L2/L3 → RAM → disco
 - Cache lines, localidad y por qué un miss cuesta ~100× un hit

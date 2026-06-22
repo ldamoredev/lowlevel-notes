@@ -20,7 +20,7 @@ behavior** — so that everything later has something concrete to attach to.
 ## Planned notes
 
 - [[lowlevel/machine-model/you-are-the-runtime-now|You are the runtime now]] — what the managed floor was hiding
-- The CPU: fetch–decode–execute and the clock
+- [[lowlevel/machine-model/the-cpu-fetch-decode-execute|The CPU: fetch–decode–execute and the clock]]
 - Registers and the instruction set architecture (ISA)
 - The memory hierarchy: registers → L1/L2/L3 → RAM → disk
 - Cache lines, locality, and why a miss costs ~100× a hit
