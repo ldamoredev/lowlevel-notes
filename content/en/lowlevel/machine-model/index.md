@@ -29,7 +29,7 @@ behavior** — so that everything later has something concrete to attach to.
 - [[lowlevel/machine-model/twos-complement-and-integer-representation|Two's complement and integer representation]]
 - [[lowlevel/machine-model/endianness|Endianness: byte order and why it bites you]]
 - [[lowlevel/machine-model/ieee-754-floating-point|IEEE 754 floating point (and why `0.1 + 0.2 != 0.3`)]]
-- How source becomes execution: compile → load → run
+- [[lowlevel/machine-model/how-source-becomes-execution|How source becomes execution: compile → load → run]]
 - The process address space and virtual memory (first look)
 
 ## Core sources

@@ -31,7 +31,7 @@ lo que agarrarse.
 - [[lowlevel/machine-model/twos-complement-and-integer-representation|Complemento a dos y representación de enteros]]
 - [[lowlevel/machine-model/endianness|Endianness: orden de bytes y por qué te muerde]]
 - [[lowlevel/machine-model/ieee-754-floating-point|IEEE 754 floating point (y por qué `0.1 + 0.2 != 0.3`)]]
-- Cómo el fuente se vuelve ejecución: compile → load → run
+- [[lowlevel/machine-model/how-source-becomes-execution|Cómo el fuente se vuelve ejecución: compile → load → run]]
 - El espacio de direcciones del proceso y memoria virtual (primera mirada)
 
 ## Fuentes centrales
