@@ -24,7 +24,7 @@ behavior** — so that everything later has something concrete to attach to.
 - [[lowlevel/machine-model/registers-and-the-isa|Registers and the instruction set architecture (ISA)]]
 - [[lowlevel/machine-model/the-memory-hierarchy|The memory hierarchy: registers → L1/L2/L3 → RAM → disk]]
 - [[lowlevel/machine-model/cache-lines-and-locality|Cache lines, locality, and why a miss costs ~100× a hit]]
-- Stack vs heap: the two memory regions you'll live in
+- [[lowlevel/machine-model/stack-vs-heap|Stack vs heap: the two memory regions you'll live in]]
 - Bits, bytes, words, and addresses
 - Two's complement and integer representation
 - Endianness: byte order and why it bites you

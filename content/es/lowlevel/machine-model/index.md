@@ -26,7 +26,7 @@ lo que agarrarse.
 - [[lowlevel/machine-model/registers-and-the-isa|Registros y la instruction set architecture (ISA)]]
 - [[lowlevel/machine-model/the-memory-hierarchy|La jerarquía de memoria: registros → L1/L2/L3 → RAM → disco]]
 - [[lowlevel/machine-model/cache-lines-and-locality|Cache lines, localidad y por qué un miss cuesta ~100× un hit]]
-- Stack vs heap (memoria dinámica): las dos regiones de memoria donde vas a vivir
+- [[lowlevel/machine-model/stack-vs-heap|Stack vs heap (memoria dinámica): las dos regiones de memoria donde vas a vivir]]
 - Bits, bytes, words y direcciones
 - Complemento a dos y representación de enteros
 - Endianness: orden de bytes y por qué te muerde
