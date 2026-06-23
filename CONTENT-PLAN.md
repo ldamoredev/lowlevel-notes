@@ -42,7 +42,7 @@ Scaffold pass (this round): every branch has a written `index.md` with a planned
 roadmap, sources, and cross-links; taxonomy wired in `build.py`; site builds with 0
 unresolved links. Atomic notes still to be written.
 
-- [ ] **machine-model** — index ✓ · 7/12 notes (✓ you-are-the-runtime-now · ✓ the-cpu-fetch-decode-execute · ✓ registers-and-the-isa · ✓ the-memory-hierarchy · ✓ cache-lines-and-locality · ✓ stack-vs-heap · ✓ bits-bytes-words-and-addresses · EN+ES)
+- [ ] **machine-model** — index ✓ · 8/12 notes (✓ you-are-the-runtime-now · ✓ the-cpu-fetch-decode-execute · ✓ registers-and-the-isa · ✓ the-memory-hierarchy · ✓ cache-lines-and-locality · ✓ stack-vs-heap · ✓ bits-bytes-words-and-addresses · ✓ twos-complement-and-integer-representation · EN+ES)
 - [ ] **c-from-the-metal** — index ✓ · 0/13 notes
 - [ ] **pointers-and-memory** — index ✓ · 0/15 notes  *(flagship; set the quality bar here)*
 - [ ] **assembly-and-compiler-output** — index ✓ · 0/12 notes

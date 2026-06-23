@@ -28,7 +28,7 @@ lo que agarrarse.
 - [[lowlevel/machine-model/cache-lines-and-locality|Cache lines, localidad y por qué un miss cuesta ~100× un hit]]
 - [[lowlevel/machine-model/stack-vs-heap|Stack vs heap (memoria dinámica): las dos regiones de memoria donde vas a vivir]]
 - [[lowlevel/machine-model/bits-bytes-words-and-addresses|Bits, bytes, words y direcciones]]
-- Complemento a dos y representación de enteros
+- [[lowlevel/machine-model/twos-complement-and-integer-representation|Complemento a dos y representación de enteros]]
 - Endianness: orden de bytes y por qué te muerde
 - IEEE 754 floating point (y por qué `0.1 + 0.2 != 0.3`)
 - Cómo el fuente se vuelve ejecución: compile → load → run
