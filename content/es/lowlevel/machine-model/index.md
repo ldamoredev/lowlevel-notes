@@ -32,7 +32,7 @@ lo que agarrarse.
 - [[lowlevel/machine-model/endianness|Endianness: orden de bytes y por qué te muerde]]
 - [[lowlevel/machine-model/ieee-754-floating-point|IEEE 754 floating point (y por qué `0.1 + 0.2 != 0.3`)]]
 - [[lowlevel/machine-model/how-source-becomes-execution|Cómo el fuente se vuelve ejecución: compile → load → run]]
-- El espacio de direcciones del proceso y memoria virtual (primera mirada)
+- [[lowlevel/machine-model/process-address-space-and-virtual-memory|El espacio de direcciones del proceso y memoria virtual (primera mirada)]]
 
 ## Fuentes centrales
 
