@@ -25,7 +25,7 @@ behavior** — so that everything later has something concrete to attach to.
 - [[lowlevel/machine-model/the-memory-hierarchy|The memory hierarchy: registers → L1/L2/L3 → RAM → disk]]
 - [[lowlevel/machine-model/cache-lines-and-locality|Cache lines, locality, and why a miss costs ~100× a hit]]
 - [[lowlevel/machine-model/stack-vs-heap|Stack vs heap: the two memory regions you'll live in]]
-- Bits, bytes, words, and addresses
+- [[lowlevel/machine-model/bits-bytes-words-and-addresses|Bits, bytes, words, and addresses]]
 - Two's complement and integer representation
 - Endianness: byte order and why it bites you
 - IEEE 754 floating point (and why `0.1 + 0.2 != 0.3`)
