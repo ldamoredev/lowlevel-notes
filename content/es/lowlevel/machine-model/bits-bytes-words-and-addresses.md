@@ -98,7 +98,8 @@ El byte menos significativo (`44`) se guarda primero. Ese orden de bytes es **en
 (orden de bytes) — x86-64 es little-endian — y tiene su propia nota más adelante. El punto
 acá: un "número" no es atómico; es una secuencia de bytes en direcciones consecutivas, y
 podés inspeccionar o reinterpretar esos bytes directamente — por eso el *orden* de bytes
-(endianness) muerde cuando los bytes cruzan máquinas o cables.
+([[lowlevel/machine-model/endianness|endianness]]) muerde cuando los bytes cruzan máquinas
+o cables.
 
 ## Miralo
 
@@ -162,7 +163,7 @@ construye a partir de bytes.
 - **Ante la duda, imprimí `sizeof` y los bytes.** El demo de arriba zanja discusiones sobre
   ancho y layout en segundos; nunca adivines qué eligió el compilador.
 
-**Conecta con:** [[lowlevel/machine-model/index|Modelo de Máquina]] · [[lowlevel/machine-model/stack-vs-heap|Stack vs heap]] · [[lowlevel/machine-model/registers-and-the-isa|Registros y la ISA]] · [[lowlevel/pointers-and-memory/index|Punteros y Memoria]] · [[lowlevel/c-from-the-metal/index|C desde el Metal]]
+**Conecta con:** [[lowlevel/machine-model/index|Modelo de Máquina]] · [[lowlevel/machine-model/stack-vs-heap|Stack vs heap]] · [[lowlevel/machine-model/endianness|Endianness]] · [[lowlevel/machine-model/registers-and-the-isa|Registros y la ISA]] · [[lowlevel/pointers-and-memory/index|Punteros y Memoria]] · [[lowlevel/c-from-the-metal/index|C desde el Metal]]
 
 ## Fuentes
 

@@ -93,8 +93,9 @@ the 4 bytes of 0x11223344 in memory order:
 The least-significant byte (`44`) is stored first. That byte ordering is **endianness** —
 x86-64 is little-endian — and it has its own note coming. The point here: a "number" is
 not atomic; it's a sequence of bytes at consecutive addresses, and you can inspect or
-reinterpret those bytes directly — which is why byte *order* (endianness) bites when
-bytes cross machines or wires.
+reinterpret those bytes directly — which is why byte *order*
+([[lowlevel/machine-model/endianness|endianness]]) bites when bytes cross machines or
+wires.
 
 ## See it
 
@@ -156,7 +157,7 @@ word one byte at a time — the foundation of how every larger type is built fro
 - **When in doubt, print `sizeof` and the bytes.** The demo above settles arguments about
   width and layout in seconds; never guess what the compiler chose.
 
-**Connects to:** [[lowlevel/machine-model/index|Machine Model]] · [[lowlevel/machine-model/stack-vs-heap|Stack vs heap]] · [[lowlevel/machine-model/registers-and-the-isa|Registers & the ISA]] · [[lowlevel/pointers-and-memory/index|Pointers & Memory]] · [[lowlevel/c-from-the-metal/index|C from the Metal]]
+**Connects to:** [[lowlevel/machine-model/index|Machine Model]] · [[lowlevel/machine-model/stack-vs-heap|Stack vs heap]] · [[lowlevel/machine-model/endianness|Endianness]] · [[lowlevel/machine-model/registers-and-the-isa|Registers & the ISA]] · [[lowlevel/pointers-and-memory/index|Pointers & Memory]] · [[lowlevel/c-from-the-metal/index|C from the Metal]]
 
 ## Sources
 

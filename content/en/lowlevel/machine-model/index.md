@@ -27,7 +27,7 @@ behavior** — so that everything later has something concrete to attach to.
 - [[lowlevel/machine-model/stack-vs-heap|Stack vs heap: the two memory regions you'll live in]]
 - [[lowlevel/machine-model/bits-bytes-words-and-addresses|Bits, bytes, words, and addresses]]
 - [[lowlevel/machine-model/twos-complement-and-integer-representation|Two's complement and integer representation]]
-- Endianness: byte order and why it bites you
+- [[lowlevel/machine-model/endianness|Endianness: byte order and why it bites you]]
 - IEEE 754 floating point (and why `0.1 + 0.2 != 0.3`)
 - How source becomes execution: compile → load → run
 - The process address space and virtual memory (first look)
