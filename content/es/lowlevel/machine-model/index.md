@@ -30,7 +30,7 @@ lo que agarrarse.
 - [[lowlevel/machine-model/bits-bytes-words-and-addresses|Bits, bytes, words y direcciones]]
 - [[lowlevel/machine-model/twos-complement-and-integer-representation|Complemento a dos y representación de enteros]]
 - [[lowlevel/machine-model/endianness|Endianness: orden de bytes y por qué te muerde]]
-- IEEE 754 floating point (y por qué `0.1 + 0.2 != 0.3`)
+- [[lowlevel/machine-model/ieee-754-floating-point|IEEE 754 floating point (y por qué `0.1 + 0.2 != 0.3`)]]
 - Cómo el fuente se vuelve ejecución: compile → load → run
 - El espacio de direcciones del proceso y memoria virtual (primera mirada)
 
