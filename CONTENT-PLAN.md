@@ -41,10 +41,11 @@ through all of it.
 Scaffold pass: every branch has a written `index.md` with a planned-note roadmap,
 sources, and cross-links; taxonomy wired in `build.py`; site builds with 0 unresolved
 links. **`machine-model` is the first fully written branch (12/12 notes, EN+ES, each
-with a runnable demo under `examples/`).** Remaining branches still to be written.
+with a runnable demo under `examples/`).** `c-from-the-metal` is now started; the
+remaining branches still need their atomic notes.
 
 - [x] **machine-model** — index ✓ · **12/12 notes DONE** (✓ you-are-the-runtime-now · ✓ the-cpu-fetch-decode-execute · ✓ registers-and-the-isa · ✓ the-memory-hierarchy · ✓ cache-lines-and-locality · ✓ stack-vs-heap · ✓ bits-bytes-words-and-addresses · ✓ twos-complement-and-integer-representation · ✓ endianness · ✓ ieee-754-floating-point · ✓ how-source-becomes-execution · ✓ process-address-space-and-virtual-memory · EN+ES · runnable demo per note under `examples/machine-model/`)
-- [ ] **c-from-the-metal** — index ✓ · 0/13 notes
+- [ ] **c-from-the-metal** — index ✓ · 1/13 notes (✓ why-c-still-matters · EN+ES)
 - [ ] **pointers-and-memory** — index ✓ · 0/15 notes  *(flagship; set the quality bar here)*
 - [ ] **assembly-and-compiler-output** — index ✓ · 0/12 notes
 - [ ] **toolchain-and-linking** — index ✓ · 0/13 notes
