@@ -21,7 +21,7 @@ biblioteca estándar que asume que sabés lo que estás haciendo.**
 ## Notas planificadas
 
 - [[lowlevel/c-from-the-metal/why-c-still-matters|Por qué C todavía importa — una capa fina sobre la máquina]]
-- El sistema de tipos de C es débil (y cuánto cuesta)
+- [[lowlevel/c-from-the-metal/the-c-type-system-is-weak|El sistema de tipos de C es débil (y lo que te cuesta)]]
 - Undefined behavior: el contrato que no sabías que firmaste
 - Más UB: signed overflow, aliasing y sequencing
 - El preprocessor: macros, includes, compilación condicional

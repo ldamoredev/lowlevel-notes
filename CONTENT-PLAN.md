@@ -45,7 +45,7 @@ with a runnable demo under `examples/`).** `c-from-the-metal` is now started; th
 remaining branches still need their atomic notes.
 
 - [x] **machine-model** — index ✓ · **12/12 notes DONE** (✓ you-are-the-runtime-now · ✓ the-cpu-fetch-decode-execute · ✓ registers-and-the-isa · ✓ the-memory-hierarchy · ✓ cache-lines-and-locality · ✓ stack-vs-heap · ✓ bits-bytes-words-and-addresses · ✓ twos-complement-and-integer-representation · ✓ endianness · ✓ ieee-754-floating-point · ✓ how-source-becomes-execution · ✓ process-address-space-and-virtual-memory · EN+ES · runnable demo per note under `examples/machine-model/`)
-- [ ] **c-from-the-metal** — index ✓ · 1/13 notes (✓ why-c-still-matters · EN+ES)
+- [ ] **c-from-the-metal** — index ✓ · 2/13 notes (✓ why-c-still-matters · ✓ the-c-type-system-is-weak · EN+ES)
 - [ ] **pointers-and-memory** — index ✓ · 0/15 notes  *(flagship; set the quality bar here)*
 - [ ] **assembly-and-compiler-output** — index ✓ · 0/12 notes
 - [ ] **toolchain-and-linking** — index ✓ · 0/13 notes

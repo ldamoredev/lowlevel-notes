@@ -21,7 +21,7 @@ assumes you know what you're doing.**
 ## Planned notes
 
 - [[lowlevel/c-from-the-metal/why-c-still-matters|Why C still matters — a thin layer over the machine]]
-- The C type system is weak (and what that costs you)
+- [[lowlevel/c-from-the-metal/the-c-type-system-is-weak|The C type system is weak (and what that costs you)]]
 - Undefined behavior: the contract you didn't know you signed
 - More UB: signed overflow, aliasing, and sequencing
 - The preprocessor: macros, includes, conditional compilation
