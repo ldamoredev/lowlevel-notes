@@ -23,7 +23,7 @@ biblioteca estándar que asume que sabés lo que estás haciendo.**
 - [[lowlevel/c-from-the-metal/why-c-still-matters|Por qué C todavía importa — una capa fina sobre la máquina]]
 - [[lowlevel/c-from-the-metal/the-c-type-system-is-weak|El sistema de tipos de C es débil (y lo que te cuesta)]]
 - [[lowlevel/c-from-the-metal/undefined-behavior-the-contract|Undefined behavior: el contrato que no sabías que firmaste]]
-- Más UB: signed overflow, aliasing y sequencing
+- [[lowlevel/c-from-the-metal/more-ub-signed-overflow-aliasing-and-sequencing|Más UB: signed overflow, aliasing y sequencing]]
 - El preprocessor: macros, includes, compilación condicional
 - Translation units, declaraciones vs definiciones y linkage
 - Arrays y array-to-pointer decay
