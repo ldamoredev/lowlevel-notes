@@ -26,7 +26,7 @@ biblioteca estándar que asume que sabés lo que estás haciendo.**
 - [[lowlevel/c-from-the-metal/more-ub-signed-overflow-aliasing-and-sequencing|Más UB: signed overflow, aliasing y sequencing]]
 - [[lowlevel/c-from-the-metal/the-preprocessor-macros-includes-conditional-compilation|El preprocessor: macros, includes y compilación condicional]]
 - [[lowlevel/c-from-the-metal/translation-units-declarations-and-linkage|Translation units, declaraciones vs definiciones y linkage]]
-- Arrays y array-to-pointer decay
+- [[lowlevel/c-from-the-metal/arrays-and-array-to-pointer-decay|Arrays y array-to-pointer decay]]
 - Structs, unions y bitfields
 - Los strings son solo `char*` (y las consecuencias)
 - Integer promotions y conversiones implícitas

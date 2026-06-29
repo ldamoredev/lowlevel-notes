@@ -26,7 +26,7 @@ assumes you know what you're doing.**
 - [[lowlevel/c-from-the-metal/more-ub-signed-overflow-aliasing-and-sequencing|More UB: signed overflow, aliasing, and sequencing]]
 - [[lowlevel/c-from-the-metal/the-preprocessor-macros-includes-conditional-compilation|The preprocessor: macros, includes, conditional compilation]]
 - [[lowlevel/c-from-the-metal/translation-units-declarations-and-linkage|Translation units, declarations vs definitions, and linkage]]
-- Arrays and array-to-pointer decay
+- [[lowlevel/c-from-the-metal/arrays-and-array-to-pointer-decay|Arrays and array-to-pointer decay]]
 - Structs, unions, and bitfields
 - Strings are just `char*` (and the consequences)
 - Integer promotions and implicit conversions
