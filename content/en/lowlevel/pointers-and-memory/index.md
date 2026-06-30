@@ -3,7 +3,7 @@ title: Pointers & Memory
 description: The heart of low-level programming. Stack vs heap, malloc/free, pointer arithmetic, alignment and padding, the classic memory bugs, and custom allocators — managing memory with intention.
 tags: [pointers, memory, allocators, heap, c-layer]
 order: 0
-updated: 2026-06-21
+updated: 2026-06-30
 ---
 # Pointers & Memory
 
@@ -20,7 +20,7 @@ so you stop treating memory as infinite and start managing it with intention.
 
 ## Planned notes
 
-- What a pointer really is — an address with a type
+- [[lowlevel/pointers-and-memory/what-a-pointer-really-is|What a pointer really is — an address with a type]]
 - Pointer arithmetic and the type's stride
 - The stack: frames, locals, and automatic storage
 - The heap: `malloc`/`free` and the allocator underneath
@@ -38,10 +38,10 @@ so you stop treating memory as infinite and start managing it with intention.
 
 ## Core sources
 
-- **Ulrich Drepper — *What Every Programmer Should Know About Memory*** — the memory paper. akkadia.org/drepper/cpumemory.pdf
-- **CS:APP — dynamic memory allocation chapters** — how `malloc` actually works.
-- **Richard Reese — *Understanding and Using C Pointers*** (O'Reilly) — pointers end to end.
-- **Ryan Fleury — *Untangling Lifetimes: The Arena Allocator*** — arena allocation as a design tool. rfleury.com
-- **Doug Lea — *A Memory Allocator (dlmalloc)*** and **Dan Luu** malloc writeups — real allocator internals.
+- **Ulrich Drepper — *What Every Programmer Should Know About Memory*** — the memory paper. https://www.akkadia.org/drepper/cpumemory.pdf
+- **CS:APP — dynamic memory allocation chapters** — how `malloc` actually works. https://csapp.cs.cmu.edu/
+- **Richard Reese — *Understanding and Using C Pointers*** (O'Reilly) — pointers end to end. https://www.oreilly.com/library/view/understanding-and-using/9781449344535/
+- **Ryan Fleury — *Untangling Lifetimes: The Arena Allocator*** — arena allocation as a design tool. https://www.rfleury.com/p/untangling-lifetimes-the-arena-allocator
+- **Doug Lea — *A Memory Allocator (dlmalloc)*** and **Dan Luu** malloc writeups — real allocator internals. https://gee.cs.oswego.edu/dl/html/malloc.html · https://danluu.com/malloc-tutorial/
 
 **Connects to:** [[lowlevel/c-from-the-metal/index|C from the Metal]] · [[lowlevel/machine-model/index|Machine Model]] · [[lowlevel/assembly-and-compiler-output/index|Assembly & Compiler Output]] · [[lowlevel/os-from-scratch/index|OS from Scratch]]

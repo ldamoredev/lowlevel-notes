@@ -46,7 +46,7 @@ atomic notes.
 
 - [x] **machine-model** — index ✓ · **12/12 notes DONE** (✓ you-are-the-runtime-now · ✓ the-cpu-fetch-decode-execute · ✓ registers-and-the-isa · ✓ the-memory-hierarchy · ✓ cache-lines-and-locality · ✓ stack-vs-heap · ✓ bits-bytes-words-and-addresses · ✓ twos-complement-and-integer-representation · ✓ endianness · ✓ ieee-754-floating-point · ✓ how-source-becomes-execution · ✓ process-address-space-and-virtual-memory · EN+ES · runnable demo per note under `examples/machine-model/`)
 - [x] **c-from-the-metal** — index ✓ · **13/13 notes DONE** (✓ why-c-still-matters · ✓ the-c-type-system-is-weak · ✓ undefined-behavior-the-contract · ✓ more-ub-signed-overflow-aliasing-and-sequencing · ✓ the-preprocessor-macros-includes-conditional-compilation · ✓ translation-units-declarations-and-linkage · ✓ arrays-and-array-to-pointer-decay · ✓ structs-unions-and-bitfields · ✓ strings-are-just-char-pointers · ✓ integer-promotions-and-implicit-conversions · ✓ the-minimal-standard-library-libc-essentials · ✓ build-and-run-a-c-program-from-zero · ✓ reading-the-c-standard-and-cppreference · EN+ES · runnable demo per note under `examples/c-from-the-metal/`)
-- [ ] **pointers-and-memory** — index ✓ · 0/15 notes  *(flagship; set the quality bar here)*
+- [ ] **pointers-and-memory** — index ✓ · **1/15 notes DONE** (✓ what-a-pointer-really-is · flagship; keep the quality bar here)
 - [ ] **assembly-and-compiler-output** — index ✓ · 0/12 notes
 - [ ] **toolchain-and-linking** — index ✓ · 0/13 notes
 - [ ] **modern-cpp** — index ✓ · 0/12 notes  *(OPTIONAL — expand after the C layer)*
