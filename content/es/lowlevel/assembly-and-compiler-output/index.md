@@ -26,12 +26,12 @@ adelante.
 - [[lowlevel/assembly-and-compiler-output/addressing-modes-and-memory-operands|Addressing modes y operandos de memoria]]
 - [[lowlevel/assembly-and-compiler-output/control-flow-jumps-conditions-and-flags|Control flow: jumps, condiciones y el registro de flags]]
 - [[lowlevel/assembly-and-compiler-output/stack-at-the-assembly-level|El stack a nivel assembly (`push`/`pop`, `rsp`/`rbp`)]]
-- Stack frames: prólogo y epílogo de función
-- La calling convention System V AMD64
-- Cómo compilan las construcciones de C: loops, structs, `switch`
-- Optimización: qué le hace `-O2` a tu código
-- Inline assembly (y cuándo alcanzarlo)
-- Apéndice ARM64: registros AArch64 y calling convention
+- [[lowlevel/assembly-and-compiler-output/stack-frames-function-prologue-and-epilogue|Stack frames: prólogo y epílogo de función]]
+- [[lowlevel/assembly-and-compiler-output/system-v-amd64-calling-convention|La calling convention System V AMD64]]
+- [[lowlevel/assembly-and-compiler-output/how-c-constructs-compile-loops-structs-switch|Cómo compilan las construcciones de C: loops, structs, `switch`]]
+- [[lowlevel/assembly-and-compiler-output/optimization-what-o2-does-to-your-code|Optimización: qué le hace `-O2` a tu código]]
+- [[lowlevel/assembly-and-compiler-output/inline-assembly-and-when-to-reach-for-it|Inline assembly (y cuándo alcanzarlo)]]
+- [[lowlevel/assembly-and-compiler-output/arm64-appendix-aarch64-registers-and-calling-convention|Apéndice ARM64: registros AArch64 y calling convention]]
 
 ## Fuentes núcleo
 
