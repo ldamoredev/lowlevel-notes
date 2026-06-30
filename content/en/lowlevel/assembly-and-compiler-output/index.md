@@ -23,8 +23,8 @@ an **ARM64 appendix** per topic — because that's your daily hardware going for
 - [[lowlevel/assembly-and-compiler-output/x86-64-registers-and-the-register-file|x86-64 registers and the register file]]
 - [[lowlevel/assembly-and-compiler-output/core-instruction-set-mov-arithmetic-lea|The core instruction set: `mov`, arithmetic, `lea`]]
 - [[lowlevel/assembly-and-compiler-output/addressing-modes-and-memory-operands|Addressing modes and memory operands]]
-- Control flow: jumps, conditions, and the flags register
-- The stack at the assembly level (`push`/`pop`, `rsp`/`rbp`)
+- [[lowlevel/assembly-and-compiler-output/control-flow-jumps-conditions-and-flags|Control flow: jumps, conditions, and the flags register]]
+- [[lowlevel/assembly-and-compiler-output/stack-at-the-assembly-level|The stack at the assembly level (`push`/`pop`, `rsp`/`rbp`)]]
 - Stack frames: function prologue and epilogue
 - The System V AMD64 calling convention
 - How C constructs compile: loops, structs, `switch`

@@ -24,8 +24,8 @@ adelante.
 - [[lowlevel/assembly-and-compiler-output/x86-64-registers-and-the-register-file|Registros x86-64 y el register file]]
 - [[lowlevel/assembly-and-compiler-output/core-instruction-set-mov-arithmetic-lea|El core instruction set: `mov`, aritmética, `lea`]]
 - [[lowlevel/assembly-and-compiler-output/addressing-modes-and-memory-operands|Addressing modes y operandos de memoria]]
-- Control flow: jumps, condiciones y el registro de flags
-- El stack a nivel assembly (`push`/`pop`, `rsp`/`rbp`)
+- [[lowlevel/assembly-and-compiler-output/control-flow-jumps-conditions-and-flags|Control flow: jumps, condiciones y el registro de flags]]
+- [[lowlevel/assembly-and-compiler-output/stack-at-the-assembly-level|El stack a nivel assembly (`push`/`pop`, `rsp`/`rbp`)]]
 - Stack frames: prólogo y epílogo de función
 - La calling convention System V AMD64
 - Cómo compilan las construcciones de C: loops, structs, `switch`
