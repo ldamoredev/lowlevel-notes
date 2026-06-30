@@ -27,12 +27,12 @@ assumes you know what you're doing.**
 - [[lowlevel/c-from-the-metal/the-preprocessor-macros-includes-conditional-compilation|The preprocessor: macros, includes, conditional compilation]]
 - [[lowlevel/c-from-the-metal/translation-units-declarations-and-linkage|Translation units, declarations vs definitions, and linkage]]
 - [[lowlevel/c-from-the-metal/arrays-and-array-to-pointer-decay|Arrays and array-to-pointer decay]]
-- Structs, unions, and bitfields
-- Strings are just `char*` (and the consequences)
-- Integer promotions and implicit conversions
-- The minimal standard library (libc essentials)
-- Build and run a C program from zero (gcc/clang)
-- Reading the C standard and cppreference
+- [[lowlevel/c-from-the-metal/structs-unions-and-bitfields|Structs, unions, and bitfields]]
+- [[lowlevel/c-from-the-metal/strings-are-just-char-pointers|Strings are just `char*` (and the consequences)]]
+- [[lowlevel/c-from-the-metal/integer-promotions-and-implicit-conversions|Integer promotions and implicit conversions]]
+- [[lowlevel/c-from-the-metal/the-minimal-standard-library-libc-essentials|The minimal standard library (libc essentials)]]
+- [[lowlevel/c-from-the-metal/build-and-run-a-c-program-from-zero|Build and run a C program from zero (gcc/clang)]]
+- [[lowlevel/c-from-the-metal/reading-the-c-standard-and-cppreference|Reading the C standard and cppreference]]
 
 ## Core sources
 

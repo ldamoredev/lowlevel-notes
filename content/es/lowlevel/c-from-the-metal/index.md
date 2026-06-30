@@ -27,12 +27,12 @@ biblioteca estándar que asume que sabés lo que estás haciendo.**
 - [[lowlevel/c-from-the-metal/the-preprocessor-macros-includes-conditional-compilation|El preprocessor: macros, includes y compilación condicional]]
 - [[lowlevel/c-from-the-metal/translation-units-declarations-and-linkage|Translation units, declaraciones vs definiciones y linkage]]
 - [[lowlevel/c-from-the-metal/arrays-and-array-to-pointer-decay|Arrays y array-to-pointer decay]]
-- Structs, unions y bitfields
-- Los strings son solo `char*` (y las consecuencias)
-- Integer promotions y conversiones implícitas
-- La biblioteca estándar mínima (esenciales de libc)
-- Build y ejecución de un programa C desde cero (gcc/clang)
-- Leer el estándar C y cppreference
+- [[lowlevel/c-from-the-metal/structs-unions-and-bitfields|Structs, unions y bitfields]]
+- [[lowlevel/c-from-the-metal/strings-are-just-char-pointers|Los strings son solo `char*` (y las consecuencias)]]
+- [[lowlevel/c-from-the-metal/integer-promotions-and-implicit-conversions|Integer promotions y conversiones implícitas]]
+- [[lowlevel/c-from-the-metal/the-minimal-standard-library-libc-essentials|La biblioteca estándar mínima (esenciales de libc)]]
+- [[lowlevel/c-from-the-metal/build-and-run-a-c-program-from-zero|Build y ejecución de un programa C desde cero (gcc/clang)]]
+- [[lowlevel/c-from-the-metal/reading-the-c-standard-and-cppreference|Leer el estándar C y cppreference]]
 
 ## Fuentes centrales
 
