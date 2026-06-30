@@ -21,10 +21,10 @@ so you stop treating memory as infinite and start managing it with intention.
 ## Planned notes
 
 - [[lowlevel/pointers-and-memory/what-a-pointer-really-is|What a pointer really is — an address with a type]]
-- Pointer arithmetic and the type's stride
-- The stack: frames, locals, and automatic storage
-- The heap: `malloc`/`free` and the allocator underneath
-- Pointers to pointers (double indirection)
+- [[lowlevel/pointers-and-memory/pointer-arithmetic-and-stride|Pointer arithmetic and the type's stride]]
+- [[lowlevel/pointers-and-memory/the-stack-frames-locals-and-automatic-storage|The stack: frames, locals, and automatic storage]]
+- [[lowlevel/pointers-and-memory/the-heap-malloc-free-and-the-allocator-underneath|The heap: `malloc`/`free` and the allocator underneath]]
+- [[lowlevel/pointers-and-memory/pointers-to-pointers-double-indirection|Pointers to pointers (double indirection)]]
 - `void*` and type erasure
 - const-correctness and what `const` really promises
 - Function pointers

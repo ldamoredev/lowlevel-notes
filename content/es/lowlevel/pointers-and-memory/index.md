@@ -21,10 +21,10 @@ infinita y empieces a manejarla con intención.
 ## Notas planificadas
 
 - [[lowlevel/pointers-and-memory/what-a-pointer-really-is|Qué es realmente un puntero — una dirección con un tipo]]
-- Aritmética de punteros y el stride del tipo
-- El stack: frames, locales y automatic storage
-- El heap: `malloc`/`free` y el allocator por debajo
-- Punteros a punteros (doble indirección)
+- [[lowlevel/pointers-and-memory/pointer-arithmetic-and-stride|Aritmética de punteros y el stride del tipo]]
+- [[lowlevel/pointers-and-memory/the-stack-frames-locals-and-automatic-storage|El stack: frames, locales y automatic storage]]
+- [[lowlevel/pointers-and-memory/the-heap-malloc-free-and-the-allocator-underneath|El heap: `malloc`/`free` y el allocator por debajo]]
+- [[lowlevel/pointers-and-memory/pointers-to-pointers-double-indirection|Punteros a punteros (doble indirección)]]
 - `void*` y type erasure
 - const-correctness y qué promete realmente `const`
 - Function pointers
