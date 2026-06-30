@@ -1,3 +1,8 @@
+// demo.c — muestra frames del stack, automatic storage y un `static` local que
+// conserva su storage entre llamadas.
+// Compila limpio y corre con:
+//
+//   gcc -O0 -Wall -Wextra demo.c -o demo && ./demo
 #include <stdio.h>
 
 static void bump_static_local(void) {

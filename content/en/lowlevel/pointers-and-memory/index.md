@@ -25,16 +25,16 @@ so you stop treating memory as infinite and start managing it with intention.
 - [[lowlevel/pointers-and-memory/the-stack-frames-locals-and-automatic-storage|The stack: frames, locals, and automatic storage]]
 - [[lowlevel/pointers-and-memory/the-heap-malloc-free-and-the-allocator-underneath|The heap: `malloc`/`free` and the allocator underneath]]
 - [[lowlevel/pointers-and-memory/pointers-to-pointers-double-indirection|Pointers to pointers (double indirection)]]
-- `void*` and type erasure
-- const-correctness and what `const` really promises
-- Function pointers
-- Struct layout: alignment and padding
-- Data layout and cache-friendliness
-- Strict aliasing and type punning
-- Classic bug: use-after-free and double-free
-- Classic bug: buffer overflow and out-of-bounds access
-- Classic bug: memory leaks and ownership discipline
-- Custom allocators: arena, pool, and bump
+- [[lowlevel/pointers-and-memory/void-star-and-type-erasure|`void*` and type erasure]]
+- [[lowlevel/pointers-and-memory/const-correctness-and-what-const-really-promises|const-correctness and what `const` really promises]]
+- [[lowlevel/pointers-and-memory/function-pointers|Function pointers]]
+- [[lowlevel/pointers-and-memory/struct-layout-alignment-and-padding|Struct layout: alignment and padding]]
+- [[lowlevel/pointers-and-memory/data-layout-and-cache-friendliness|Data layout and cache-friendliness]]
+- [[lowlevel/pointers-and-memory/strict-aliasing-and-type-punning|Strict aliasing and type punning]]
+- [[lowlevel/pointers-and-memory/use-after-free-and-double-free|Classic bug: use-after-free and double-free]]
+- [[lowlevel/pointers-and-memory/buffer-overflow-and-out-of-bounds-access|Classic bug: buffer overflow and out-of-bounds access]]
+- [[lowlevel/pointers-and-memory/memory-leaks-and-ownership-discipline|Classic bug: memory leaks and ownership discipline]]
+- [[lowlevel/pointers-and-memory/custom-allocators-arena-pool-and-bump|Custom allocators: arena, pool, and bump]]
 
 ## Core sources
 

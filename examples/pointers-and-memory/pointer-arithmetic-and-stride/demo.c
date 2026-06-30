@@ -1,3 +1,8 @@
+// demo.c — muestra que la aritmetica de punteros avanza por el stride del tipo:
+// `int`, `double`, structs, puntero one-past y bytes crudos.
+// Compila limpio y corre con:
+//
+//   gcc -O0 -Wall -Wextra demo.c -o demo && ./demo
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>

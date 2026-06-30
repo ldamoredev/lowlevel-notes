@@ -1,3 +1,8 @@
+// demo.c — muestra que un puntero es una direccion tipada: aliases, `void*`,
+// comparacion de direcciones y bytes crudos vistos como `unsigned char`.
+// Compila limpio y corre con:
+//
+//   gcc -O0 -Wall -Wextra demo.c -o demo && ./demo
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>

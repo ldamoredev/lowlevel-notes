@@ -1,3 +1,8 @@
+// demo.c — muestra `malloc`, `realloc`, `calloc` y cleanup explicito de heap
+// ownership, incluyendo una lista enlazada liberada nodo por nodo.
+// Compila limpio y corre con:
+//
+//   gcc -O0 -Wall -Wextra demo.c -o demo && ./demo
 #include <stdio.h>
 #include <stdlib.h>
 

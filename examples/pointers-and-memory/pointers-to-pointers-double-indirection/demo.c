@@ -1,3 +1,8 @@
+// demo.c — muestra doble indirección: escribir mediante `**pp`, devolver un
+// puntero por out-parameter y mutar el head de una lista enlazada.
+// Compila limpio y corre con:
+//
+//   gcc -O0 -Wall -Wextra demo.c -o demo && ./demo
 #include <stdio.h>
 #include <stdlib.h>
 
