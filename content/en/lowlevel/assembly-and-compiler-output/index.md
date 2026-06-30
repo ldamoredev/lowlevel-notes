@@ -20,7 +20,7 @@ an **ARM64 appendix** per topic — because that's your daily hardware going for
 ## Planned notes
 
 - [[lowlevel/assembly-and-compiler-output/why-read-assembly-compiler-explorer|Why read assembly — Compiler Explorer as a daily tool]]
-- x86-64 registers and the register file
+- [[lowlevel/assembly-and-compiler-output/x86-64-registers-and-the-register-file|x86-64 registers and the register file]]
 - The core instruction set: `mov`, arithmetic, `lea`
 - Addressing modes and memory operands
 - Control flow: jumps, conditions, and the flags register

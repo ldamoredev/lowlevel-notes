@@ -21,7 +21,7 @@ adelante.
 ## Notas planificadas
 
 - [[lowlevel/assembly-and-compiler-output/why-read-assembly-compiler-explorer|Por qué leer assembly — Compiler Explorer como herramienta diaria]]
-- Registros x86-64 y el register file
+- [[lowlevel/assembly-and-compiler-output/x86-64-registers-and-the-register-file|Registros x86-64 y el register file]]
 - El core instruction set: `mov`, aritmética, `lea`
 - Addressing modes y operandos de memoria
 - Control flow: jumps, condiciones y el registro de flags
