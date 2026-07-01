@@ -19,7 +19,7 @@ half: **gdb/lldb, sanitizers (ASan/UBSan/TSan), and valgrind** — the tools tha
 
 ## Planned notes
 
-- The pipeline: preprocess → compile → assemble → link
+- [[lowlevel/toolchain-and-linking/the-pipeline-preprocess-compile-assemble-link|The pipeline: preprocess → compile → assemble → link]]
 - Object files and what's inside them
 - The ELF format (sections, segments, headers)
 - Symbols: definition, reference, and resolution

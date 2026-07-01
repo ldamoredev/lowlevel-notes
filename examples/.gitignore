@@ -1,8 +1,10 @@
 # Build artifacts from compiling the example C programs — keep only sources.
 *.o
 *.s
+*.i
 *.out
 *.dSYM/
 # Compiled binaries (named `demo` etc., no extension)
 demo
+demo_direct
 a.out
