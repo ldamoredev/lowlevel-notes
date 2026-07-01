@@ -4,3 +4,12 @@ __pycache__/
 .venv/
 site/
 .idea/
+examples/**/*.o
+examples/**/*.a
+examples/**/demo
+examples/**/demo_*
+examples/**/a.out
+examples/**/build/
+examples/**/*.dSYM/
+examples/**/link-error.txt
+examples/**/elf-link-error.txt

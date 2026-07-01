@@ -23,7 +23,7 @@ mapea todo eso en un proceso corriendo. Después viene la mitad de disciplina:
 - [[lowlevel/toolchain-and-linking/object-files-and-whats-inside-them|Object files y qué tienen adentro]]
 - [[lowlevel/toolchain-and-linking/the-elf-format-sections-segments-headers|El formato ELF (sections, segments, headers)]]
 - [[lowlevel/toolchain-and-linking/symbols-definition-reference-and-resolution|Símbolos: definición, referencia y resolución]]
-- Static linking y archives (`.a`)
+- [[lowlevel/toolchain-and-linking/static-linking-and-archives|Static linking y archives (`.a`)]]
 - Dynamic linking y shared libraries (`.so`)
 - El dynamic loader, relocation, PLT y GOT
 - gcc vs clang y el modelo de compiler driver
