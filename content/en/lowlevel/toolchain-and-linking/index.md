@@ -29,7 +29,7 @@ half: **gdb/lldb, sanitizers (ASan/UBSan/TSan), and valgrind** — the tools tha
 - [[lowlevel/toolchain-and-linking/gcc-vs-clang-and-the-compiler-driver-model|gcc vs clang and the compiler driver model]]
 - [[lowlevel/toolchain-and-linking/make-and-the-build-dependency-graph|`make` and the build dependency graph]]
 - [[lowlevel/toolchain-and-linking/cmake-when-make-isnt-enough|`cmake` (when make isn't enough)]]
-- gdb / lldb essentials for low-level debugging
+- [[lowlevel/toolchain-and-linking/gdb-lldb-essentials-for-low-level-debugging|gdb / lldb essentials for low-level debugging]]
 - Sanitizers: ASan, UBSan, and TSan
 - valgrind and profilers (perf, cachegrind)
 

@@ -29,7 +29,7 @@ mapea todo eso en un proceso corriendo. Después viene la mitad de disciplina:
 - [[lowlevel/toolchain-and-linking/gcc-vs-clang-and-the-compiler-driver-model|gcc vs clang y el modelo de compiler driver]]
 - [[lowlevel/toolchain-and-linking/make-and-the-build-dependency-graph|`make` y el grafo de dependencias de build]]
 - [[lowlevel/toolchain-and-linking/cmake-when-make-isnt-enough|`cmake` (cuando make no alcanza)]]
-- gdb / lldb esenciales para debugging de bajo nivel
+- [[lowlevel/toolchain-and-linking/gdb-lldb-essentials-for-low-level-debugging|gdb / lldb esenciales para debugging de bajo nivel]]
 - Sanitizers: ASan, UBSan y TSan
 - valgrind y profilers (perf, cachegrind)
 

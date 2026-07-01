@@ -1,0 +1,11 @@
+breakpoint set --name accumulate
+run
+frame variable value
+thread step-over
+frame variable doubled
+thread step-over
+frame variable biased
+bt
+register read rip rsp rbp
+continue
+quit

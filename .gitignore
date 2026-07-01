@@ -17,3 +17,4 @@ examples/**/*.dSYM/
 examples/**/link-error.txt
 examples/**/elf-link-error.txt
 examples/**/trace.txt
+examples/**/lldb-output.txt
