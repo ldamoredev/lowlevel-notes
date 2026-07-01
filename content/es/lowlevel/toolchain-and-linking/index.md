@@ -25,7 +25,7 @@ mapea todo eso en un proceso corriendo. Después viene la mitad de disciplina:
 - [[lowlevel/toolchain-and-linking/symbols-definition-reference-and-resolution|Símbolos: definición, referencia y resolución]]
 - [[lowlevel/toolchain-and-linking/static-linking-and-archives|Static linking y archives (`.a`)]]
 - [[lowlevel/toolchain-and-linking/dynamic-linking-and-shared-libraries|Dynamic linking y shared libraries (`.so`)]]
-- El dynamic loader, relocation, PLT y GOT
+- [[lowlevel/toolchain-and-linking/the-dynamic-loader-relocation-plt-and-got|El dynamic loader, relocation, PLT y GOT]]
 - gcc vs clang y el modelo de compiler driver
 - `make` y el grafo de dependencias de build
 - `cmake` (cuando make no alcanza)
