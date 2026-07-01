@@ -27,7 +27,7 @@ half: **gdb/lldb, sanitizers (ASan/UBSan/TSan), and valgrind** — the tools tha
 - [[lowlevel/toolchain-and-linking/dynamic-linking-and-shared-libraries|Dynamic linking and shared libraries (`.so`)]]
 - [[lowlevel/toolchain-and-linking/the-dynamic-loader-relocation-plt-and-got|The dynamic loader, relocation, PLT and GOT]]
 - [[lowlevel/toolchain-and-linking/gcc-vs-clang-and-the-compiler-driver-model|gcc vs clang and the compiler driver model]]
-- `make` and the build dependency graph
+- [[lowlevel/toolchain-and-linking/make-and-the-build-dependency-graph|`make` and the build dependency graph]]
 - `cmake` (when make isn't enough)
 - gdb / lldb essentials for low-level debugging
 - Sanitizers: ASan, UBSan, and TSan
