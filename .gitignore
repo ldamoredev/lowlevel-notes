@@ -16,3 +16,4 @@ examples/**/build/
 examples/**/*.dSYM/
 examples/**/link-error.txt
 examples/**/elf-link-error.txt
+examples/**/trace.txt

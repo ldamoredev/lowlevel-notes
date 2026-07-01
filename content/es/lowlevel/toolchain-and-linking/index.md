@@ -26,7 +26,7 @@ mapea todo eso en un proceso corriendo. Después viene la mitad de disciplina:
 - [[lowlevel/toolchain-and-linking/static-linking-and-archives|Static linking y archives (`.a`)]]
 - [[lowlevel/toolchain-and-linking/dynamic-linking-and-shared-libraries|Dynamic linking y shared libraries (`.so`)]]
 - [[lowlevel/toolchain-and-linking/the-dynamic-loader-relocation-plt-and-got|El dynamic loader, relocation, PLT y GOT]]
-- gcc vs clang y el modelo de compiler driver
+- [[lowlevel/toolchain-and-linking/gcc-vs-clang-and-the-compiler-driver-model|gcc vs clang y el modelo de compiler driver]]
 - `make` y el grafo de dependencias de build
 - `cmake` (cuando make no alcanza)
 - gdb / lldb esenciales para debugging de bajo nivel
