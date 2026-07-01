@@ -6,6 +6,9 @@ site/
 .idea/
 examples/**/*.o
 examples/**/*.a
+examples/**/*.dylib
+examples/**/*.so
+examples/**/*.so.*
 examples/**/demo
 examples/**/demo_*
 examples/**/a.out

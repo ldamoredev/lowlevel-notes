@@ -24,7 +24,7 @@ half: **gdb/lldb, sanitizers (ASan/UBSan/TSan), and valgrind** — the tools tha
 - [[lowlevel/toolchain-and-linking/the-elf-format-sections-segments-headers|The ELF format (sections, segments, headers)]]
 - [[lowlevel/toolchain-and-linking/symbols-definition-reference-and-resolution|Symbols: definition, reference, and resolution]]
 - [[lowlevel/toolchain-and-linking/static-linking-and-archives|Static linking and archives (`.a`)]]
-- Dynamic linking and shared libraries (`.so`)
+- [[lowlevel/toolchain-and-linking/dynamic-linking-and-shared-libraries|Dynamic linking and shared libraries (`.so`)]]
 - The dynamic loader, relocation, PLT and GOT
 - gcc vs clang and the compiler driver model
 - `make` and the build dependency graph
