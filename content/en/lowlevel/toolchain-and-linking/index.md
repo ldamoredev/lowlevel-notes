@@ -20,9 +20,9 @@ half: **gdb/lldb, sanitizers (ASan/UBSan/TSan), and valgrind** — the tools tha
 ## Planned notes
 
 - [[lowlevel/toolchain-and-linking/the-pipeline-preprocess-compile-assemble-link|The pipeline: preprocess → compile → assemble → link]]
-- Object files and what's inside them
-- The ELF format (sections, segments, headers)
-- Symbols: definition, reference, and resolution
+- [[lowlevel/toolchain-and-linking/object-files-and-whats-inside-them|Object files and what's inside them]]
+- [[lowlevel/toolchain-and-linking/the-elf-format-sections-segments-headers|The ELF format (sections, segments, headers)]]
+- [[lowlevel/toolchain-and-linking/symbols-definition-reference-and-resolution|Symbols: definition, reference, and resolution]]
 - Static linking and archives (`.a`)
 - Dynamic linking and shared libraries (`.so`)
 - The dynamic loader, relocation, PLT and GOT

@@ -20,9 +20,9 @@ mapea todo eso en un proceso corriendo. Después viene la mitad de disciplina:
 ## Notas planificadas
 
 - [[lowlevel/toolchain-and-linking/the-pipeline-preprocess-compile-assemble-link|El pipeline: preprocess → compile → assemble → link]]
-- Object files y qué tienen adentro
-- El formato ELF (sections, segments, headers)
-- Símbolos: definición, referencia y resolución
+- [[lowlevel/toolchain-and-linking/object-files-and-whats-inside-them|Object files y qué tienen adentro]]
+- [[lowlevel/toolchain-and-linking/the-elf-format-sections-segments-headers|El formato ELF (sections, segments, headers)]]
+- [[lowlevel/toolchain-and-linking/symbols-definition-reference-and-resolution|Símbolos: definición, referencia y resolución]]
 - Static linking y archives (`.a`)
 - Dynamic linking y shared libraries (`.so`)
 - El dynamic loader, relocation, PLT y GOT
