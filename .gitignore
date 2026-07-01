@@ -11,6 +11,7 @@ examples/**/*.so
 examples/**/*.so.*
 examples/**/demo
 examples/**/demo_*
+examples/**/*_demo
 examples/**/a.out
 examples/**/build/
 examples/**/*.dSYM/
@@ -18,3 +19,5 @@ examples/**/link-error.txt
 examples/**/elf-link-error.txt
 examples/**/trace.txt
 examples/**/lldb-output.txt
+examples/**/*.out
+examples/**/tsan-build.txt
