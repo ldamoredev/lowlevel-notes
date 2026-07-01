@@ -1183,7 +1183,7 @@ def build_home(tree: dict[str, dict[str, list[Note]]], notes: list[Note]) -> str
     playbook_count = branch_note_count(tree, "craftsmanship-low-level")
     lines: list[str] = []
     lines.append('<section class="home-hero">')
-    lines.append('<div class="hero-crumb"><span>model.console</span><span>/</span><span>personal-atlas</span></div>')
+    lines.append('<div class="hero-crumb"><span>lowlevel.console</span><span>/</span><span>bare-metal-atlas</span></div>')
     lines.append(f'<h1>{html.escape(t("home_title"))}</h1>')
     lines.append(f'<p class="hero-subtitle">{html.escape(t("home_subtitle"))}</p>')
     lines.append(f'<p class="lede">{html.escape(t("home_lede"))}</p>')
